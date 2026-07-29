@@ -1,0 +1,11 @@
+# 轻量化孪生 CNN 变化检测 - Python 依赖
+# 新建 Conda 环境: conda create -n cd python=3.10 -y && conda activate cd
+# 安装 PyTorch (CUDA 11.8 版本示例，按本机 CUDA 版本调整):
+#   pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu118
+# 安装其余依赖:
+#   pip install -r requirements.txt
+
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.23.0
+Pillow>=9.0.0

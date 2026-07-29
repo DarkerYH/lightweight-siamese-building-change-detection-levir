@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# 数据集、权重日志（不上传）
+data/
+outputs/
+*.pth
+*.log
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.sublime-*
+
+# 系统文件
+Thumbs.db
+.DS_Store
