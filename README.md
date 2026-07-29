@@ -1,4 +1,5 @@
 # lightweight-siamese-building-change-detection-levir
+
 Lightweight Siamese Network for Remote Sensing Building Change Detection | 轻量化孪生网络遥感建筑物变化检测（LEVIR-CD 数据集）
 
 # 项目简介
@@ -64,7 +65,7 @@ python train.py
 python test.py
 ```
 
-## 输出文件说明
+# 输出文件说明
 
 训练日志：记录每轮损失、每 5 轮验证集完整指标
 
@@ -72,6 +73,6 @@ python test.py
 
 实验结果：测试集指标表格、四拼接可视化图（原图 A / 原图 B / 真值 label / 预测掩码）
 
-## 许可证
+# 许可证
 
 MIT License
